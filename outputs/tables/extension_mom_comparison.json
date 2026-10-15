@@ -1,0 +1,12 @@
+{
+  "start": 200201,
+  "end": 202512,
+  "months": 288,
+  "built_mean_pct": 0.13653237477927813,
+  "official_mean_pct": 0.13437499999999997,
+  "built_vol_monthly_pct": 4.510873027354402,
+  "official_vol_monthly_pct": 4.482981169434601,
+  "correlation": 0.9988888185714813,
+  "mean_difference_pct": 0.002157374779278076,
+  "tracking_error_monthly_pct": 0.21381985509276225
+}

@@ -1,0 +1,78 @@
+{
+  "sample_start": 200201,
+  "sample_end": 202512,
+  "months": 288,
+  "state_definition": "Prior 12 complete monthly market returns through t-1 compound to a negative return",
+  "hac_lags": 5,
+  "states": [
+    {
+      "state": "prior_12m_nonnegative",
+      "months": 223,
+      "mean_spread_pct": 1.455965653109047,
+      "hac_se_pct": 0.28797977284971493,
+      "ci95_low_pct": 0.8915252983236057,
+      "ci95_high_pct": 2.020406007894488,
+      "negative_spread_months": 67,
+      "negative_spread_share": 0.3004484304932735,
+      "p10_spread_pct": -3.4900996461510654,
+      "worst_spread_pct": -27.579811215400696
+    },
+    {
+      "state": "prior_12m_negative",
+      "months": 65,
+      "mean_spread_pct": -2.0248222514503436,
+      "hac_se_pct": 1.8896940567250295,
+      "ci95_low_pct": -5.728622602631401,
+      "ci95_high_pct": 1.6789780997307144,
+      "negative_spread_months": 29,
+      "negative_spread_share": 0.4461538461538462,
+      "p10_spread_pct": -18.399293273687363,
+      "worst_spread_pct": -49.348850548267365
+    }
+  ],
+  "down_minus_nonnegative_mean_pct": -3.4807879045593904,
+  "difference_hac_se_pct": 1.91511408159714,
+  "difference_hac_t": -1.8175355390090036,
+  "difference_two_sided_normal_p": 0.06913515170556384,
+  "difference_ci95_low_pct": -7.234411504489785,
+  "difference_ci95_high_pct": 0.2728356953710036,
+  "prior_down_current_positive_months": 37,
+  "prior_down_current_positive_mean_pct": -7.010583558774276,
+  "prior_down_current_nonpositive_months": 28,
+  "prior_down_current_nonpositive_mean_pct": 4.563505190370571,
+  "worst_month": 200904,
+  "worst_month_spread_pct": -49.348850548267365,
+  "down_minus_nonnegative_without_worst_pct": -2.7413499624216224,
+  "five_worst_months": [
+    {
+      "month": 200904,
+      "winner_minus_loser_pct": -49.348850548267365,
+      "market_return_pct": 10.9466,
+      "prior_market_down": true
+    },
+    {
+      "month": 200903,
+      "winner_minus_loser_pct": -29.32402454316616,
+      "market_return_pct": 8.6803,
+      "prior_market_down": true
+    },
+    {
+      "month": 202301,
+      "winner_minus_loser_pct": -27.92680785059929,
+      "market_return_pct": 7.1823,
+      "prior_market_down": true
+    },
+    {
+      "month": 202011,
+      "winner_minus_loser_pct": -27.579811215400696,
+      "market_return_pct": 12.3707,
+      "prior_market_down": false
+    },
+    {
+      "month": 200211,
+      "winner_minus_loser_pct": -26.125001721084118,
+      "market_return_pct": 6.1281,
+      "prior_market_down": true
+    }
+  ]
+}

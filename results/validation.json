@@ -1,0 +1,15 @@
+{
+  "monthly_start": 200001,
+  "monthly_end": 202512,
+  "securities": 25301,
+  "stock_observations": 2363331,
+  "eligible_jt_median": 1562,
+  "eligible_mom_median": 4033,
+  "nonmissing_daily_beta_years": 199011,
+  "event_time_6m_cohorts": 253,
+  "event_time_6m_last_formation": 202301,
+  "market_state_6_6_months": 288,
+  "market_state_prior_down_months": 65,
+  "riskfree_last_month": 202512,
+  "official_mom_last_common_month": 202512
+}
